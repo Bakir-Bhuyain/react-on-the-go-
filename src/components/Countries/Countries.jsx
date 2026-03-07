@@ -36,6 +36,8 @@ const Countries = ({ countriesPromise }) => {
                   <div className='countries'>
                         {
                               countries.map(country => <Country key={country.cca3.cca3} country={country} handleVisitedCountries={handleVisitedCountries} handleVisitedFlag={handleVisitedFlag}></Country>)
+
+                              
                         }
                   </div>
             </div>
